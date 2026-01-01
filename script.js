@@ -1,14 +1,12 @@
 const preloaderScreen = document.getElementById("preloader");
-const preVid = document.getElementById("previd");
-
-preVid.addEventListener("ended", () => {
-  preloaderScreen.classList.add("hide");
-  preVid.classList.add("hide");
-
-  setTimeout(() => {
-    preloaderScreen.style.display = "none";
-  }, 1000);
-});
+const preVid = document.getElementById("previd")
+setTimeout(() => {
+    preloaderScreen.classList.add("hide")
+    preVid.classList.add("hide")
+    setTimeout(() => {
+        preloaderScreen.style.display = "none"
+    }, 1000);
+}, 4000);
 
 const humburger = document.querySelector(".hamburger");
 const navlinkContainer = document.querySelector(".navlink")
@@ -56,6 +54,7 @@ titles.forEach(title => {
     
    })
 })
+
 
 
 
