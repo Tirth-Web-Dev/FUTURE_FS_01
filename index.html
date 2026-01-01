@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <div class="preloader" id="preloader">
+  <video id="previd" width="320" height="240"  autoplay muted playsinline>
+  <source src="assets/finale-preloader.mp4" type="video/mp4">
+</video>
+</div>
+
+   
+    <main>
+      <nav class="navbar">
+        <div class="logo"><a href="#">Tirth.</a></div>
+
+        <div class="navlink">
+          <a href="#"
+            ><i class="fa-regular fa-house nav-icon"></i> <span>Home</span></a
+          >
+          <a href="#about"
+            ><i class="fa-regular fa-address-card nav-icon"></i
+            ><span>About</span></a
+          >
+          <a href="#projectSection"
+            ><i class="fa-regular fa-folder-open nav-icon"></i
+            ><span>Projects</span></a
+          >
+
+          <a href="#skillSection">
+            <i class="fa-regular fa-gem nav-icon"></i> <span>Skills</span></a
+            >
+
+          <div class="mcontact">
+            <a
+              href="mailto:tirthdabgar203@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Tirth,"
+              class="ctnBtn mbtn"
+            >
+              <i class="fa-regular fa-envelope ctn-icon"></i>
+              Send Email
+            </a>
+          </div>
+        </div>
+
+        <div class="contact">
+          <a
+            href="mailto:tirthdabgar203@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Tirth,"
+            class="ctnBtn mbtn"
+          >
+            <i class="fa-regular fa-envelope ctn-icon"></i>
+            Send Email
+          </a>
+        </div>
+
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+      <div class="backscreen"></div>
+
+      <section class="hero-section">
+        <div class="bg-text-container">
+          <span class="script-text stagger" data-text="hey,"></span>
+          <span class="space"></span>
+          <span class="script-text stagger" data-text="there"></span>
+        </div>
+
+        <div class="hero-container">
+          <div class="hero-left">
+            <div class="availability-badge">
+              <span class="dot"></span> Available for new opportunities
+            </div>
+            <h1 class="hero-title" style="z-index: 1">
+              <span class="char" style="--i: 0">I</span>
+              <span class="char" style="--i: 1"> </span>
+              <span class="char" style="--i: 2">A</span>
+              <span class="char" style="--i: 3">M</span><br />
+
+              <span class="name-tirth">
+                <span class="char" style="--i: 4">T</span>
+                <span class="char" style="--i: 5">I</span>
+                <span class="char" style="--i: 6">R</span>
+                <span class="char" style="--i: 7">T</span>
+                <span class="char" style="--i: 8">H</span>
+              </span>
+            </h1>
+
+            <h2 class="hero-subtitle" style="z-index: 1">
+              <span class="char" style="--i: 9">W</span>
+              <span class="char" style="--i: 10">E</span>
+              <span class="char" style="--i: 11">B</span>
+              <span class="char" style="--i: 12">-</span>
+              <span class="char" style="--i: 13">D</span>
+              <span class="char" style="--i: 14">E</span>
+              <span class="char" style="--i: 15">V</span>
+              <span class="char" style="--i: 16">E</span>
+              <span class="char" style="--i: 17">L</span>
+              <span class="char" style="--i: 18">O</span>
+              <span class="char" style="--i: 19">P</span>
+              <span class="char" style="--i: 20">E</span>
+              <span class="char" style="--i: 21">R</span>
+            </h2>
+          </div>
+
+          <div class="hero-image-wrapper">
+            <img
+              src="assets/new tirth-img.png"
+              alt="Tirth - Web Developer"
+              class="hero-img"
+            />
+          </div>
+
+          <div class="hero-right">
+            <p class="hero-desc hero-text-gsap">
+              Specialized in Web Development, UX/UI, Webflow, and Front End
+              Frameworks
+            </p>
+          </div>
+        </div>
+        <div class="fade"></div>
+      </section>
+
+      <section class="about-section" id="about">
+        <div class="about-inner">
+          <div class="about-title"><h1>ABOUT ME</h1></div>
+
+          <p>
+           As a design and web development student, I focus on building clean, modern designs with a strong emphasis on branding, web design, and user experience. I enjoy learning by working on real projects and collaborating with people who want simple, effective, and visually appealing solutions. Let’s build something meaningful together.
+          </p>
+
+          <a href="mailto:tirthdabgar203@gmail.com?subject=Contact%20from%20Portfolio&body=Hi%20Tirth," class="cta">GET IN TOUCH</a>
+        </div>
+        <div class="icon-wrap one" data-tooltip="HTML">
+          <img src="assets/html.png" class="icon" />
+        </div>
+
+        <div class="icon-wrap two" data-tooltip="CSS">
+          <img src="assets/css.png" class="icon" />
+        </div>
+
+        <div class="icon-wrap three" data-tooltip="JavaScript">
+          <img src="assets/js.png" class="icon" />
+        </div>
+
+        <div class="icon-wrap four" data-tooltip="React">
+          <img src="assets/react.png" class="icon" />
+        </div>
+      </section>
+
+      <div class="project-section" id="projectSection">
+       
+        <div class="section-header">
+          <p class="section-eyebrow">Experience</p>
+          <h2 class="section-title">
+            My Work Journey<br />
+            <span>What I’ve Built</span>
+          </h2>
+        </div>
+
+        <div class="p-space"></div>
+
+        <div class="cards">
+          
+          <div class="card">
+            <div class="card-inner">
+              <div class="img-wrapper">
+                <img src="assets/resume-laptop.png" alt="Resume Builder" />
+              </div>
+              <div class="card-content">
+                <h1 class="card-heading">Resume Builder</h1>
+                <p>
+                  A dynamic resume builder where users enter details, preview
+                  the resume in real-time, and download it instantly in a clean
+                  format.
+                </p>
+
+                <div class="card-actions">
+                  <a
+                    href="https://moinchhipa.github.io/Java-script-learning/resume_builder/"
+                    class="btn btn-primary"
+                    >Live Preview</a
+                  >
+                  <a
+                    href="https://github.com/moinchhipa/Java-script-learning/tree/main/resume_builder"
+                    class="btn btn-secondary"
+                    >View Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="card">
+            <div class="card-inner">
+              <div class="img-wrapper">
+                <img src="assets/netflix-laptop.png" alt="Netflix Clone" />
+              </div>
+              <div class="card-content">
+                <h1 class="card-heading">Netflix Clone</h1>
+                <p>
+                  A responsive Netflix UI clone with modern layout, smooth hover
+                  effects, and clean section-based design.
+                </p>
+
+                <div class="card-actions">
+                  <a
+                    href="https://tirth-web-dev.github.io/Netflix-Clone/"
+                    class="btn btn-primary"
+                    >Live Preview</a
+                  >
+                  <a
+                    href="https://github.com/Tirth-Web-Dev/Netflix-Clone"
+                    class="btn btn-secondary"
+                    >View Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+
+         
+          <div class="card">
+            <div class="card-inner">
+              <div class="img-wrapper">
+                <img src="assets/tictactoe-laptop.png" alt="Tic Tac Toe" />
+              </div>
+              <div class="card-content">
+                <h1 class="card-heading">Tic Tac Toe Game</h1>
+                <p>
+                  A fun Tic Tac Toe game playable against a smart bot or in
+                  multiplayer mode. Includes win detection and smooth
+                  interactions.
+                </p>
+
+                <div class="card-actions">
+                  <a
+                    href="https://tirth-web-dev.github.io/Tic-Tac-Toe/"
+                    class="btn btn-primary"
+                    >Live Preview</a
+                  >
+                  <a
+                    href="https://github.com/Tirth-Web-Dev/Tic-Tac-Toe"
+                    class="btn btn-secondary"
+                    >View Code</a
+                  >
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="p-space"></div>
+      </div>
+
+      <section class="skills-section" id="skillSection">
+        <div class="skills-wrapper">
+          <span class="eyebrow">What I’m Good At</span>
+          <h2 class="skills-title">Skills That Actually Matter</h2>
+
+          <div class="skills-grid">
+            <div class="skill-card featured">
+              <h3>Frontend Development</h3>
+              <p>
+                Building clean, responsive, animated interfaces with attention
+                to performance and detail.
+              </p>
+              <ul>
+                <li>HTML5 & Semantic Structure</li>
+                <li>Modern CSS (Grid, Flexbox)</li>
+                <li>Vanilla JavaScript (ES6+)</li>
+              </ul>
+            </div>
+
+            <div class="skill-card long">
+              <div class="skill-content">
+                <h4>UI & Styling</h4>
+                <ul>
+                  <li>Micro-interactions</li>
+                  <li>Animations</li>
+                  <li>Design Consistency</li>
+                </ul>
+              </div>
+
+              <span class="card-accent">Design Driven</span>
+            </div>
+
+            <div class="skill-card">
+              <h4>Logic & JS</h4>
+              <ul>
+                <li>DOM Manipulation</li>
+                <li>Scroll-based Effects</li>
+                <li>Clean Code Practices</li>
+              </ul>
+            </div>
+
+            <div class="skill-card">
+              <h4>Tools & Workflow</h4>
+              <ul>
+                <li>Git & GitHub</li>
+                <li>VS Code</li>
+                <li>Performance Optimization</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div class="contact-wrapper">
+          <div class="contact-grid">
+            
+            <div class="contact-left">
+              <p class="contact-eyebrow">Contact</p>
+
+              <h2 class="contact-title">
+                Let’s build<br />
+                something<br />
+                <span>worth attention</span>
+              </h2>
+
+              <p class="contact-sub">
+                I design and build modern, high-quality web experiences. If you
+                care about clean UI, performance, and detail — we should talk.
+              </p>
+
+              <div class="contact-actions">
+                <a href="tel:+916352129276" class="primary-btn">
+                  Start a Conversation
+                </a>
+                <a
+                  href="assets/Resume_Tirth_2025.pdf"
+                  class="ghost-btn"
+                  target="_blank"
+                >
+                  View Resume
+                </a>
+              </div>
+            </div>
+
+            
+            <div class="contact-right">
+              <div class="contact-visual">
+                LET’S<br />
+                BUILD<br />
+                SOMETHING
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-footer">
+            <a href="https://github.com/Tirth-Web-Dev">GitHub</a>
+            <a href="https://www.linkedin.com/in/tirthdabgar/">LinkedIn</a>
+            <span>© 2025</span>
+          </div>
+          <div class="topbtncontainer">
+            <a href="#" class="topbtn"><i class="fa-solid fa-arrow-up"></i></a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+    <script src="https://unpkg.com/gsap@3/dist/gsap.min.js"></script>
+<script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+
+<script>
+  gsap.registerPlugin(ScrollTrigger);
+
+gsap.utils.toArray("section").forEach((section) => {
+  gsap.from(section, {
+    scrollTrigger: {
+      trigger: section,
+      start: "top 85%",
+    },
+    y: 60,
+    opacity: 0,
+    duration: 1,
+    ease: "power2.out",
+  });
+});
+gsap.from(".card", {
+  scrollTrigger: {
+    trigger: ".cards",
+    start: "top 80%",
+  },
+  y: 80,
+  opacity: 0,
+  stagger: 0.2,
+  duration: 1,
+  ease: "power3.out",
+});
+
+
+gsap.from(".contact-left > *", {
+  scrollTrigger: {
+    trigger: ".contact-section",
+    start: "top 80%",
+  },
+  y: 40,
+  opacity: 0,
+  stagger: 0.15,
+  duration: 0.9,
+  ease: "power3.out",
+});
+
+</script>
+    <script src="script.js" defer></script>
+  </body>
+</html>
